@@ -12,10 +12,10 @@ const Home = () => {
             exit={{ opacity: 0 }}
             className="home" style={{ backgroundImage: `url(${HeroImage})` }}>
             <div className="homeContainer">
-                <h1>Webler Pizzéria</h1>
-                <p>A webfejlesztők kedvenc pizzái nálunk kaphatók!</p>
+                <h1>Project Pizza</h1>
+                <p>Pizza for every developer!</p>
                 <Link to='/menu'>
-                    <button>Rendelni szeretnék!</button>
+                    <button>I would like to order!</button>
                 </Link>
             </div>
         </motion.div>

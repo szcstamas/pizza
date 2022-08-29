@@ -14,12 +14,12 @@ export const PizzaList = [
         price: 1500,
     },
     {
-        name: 'Tömbök az Alcatrazban',
+        name: 'Arrays from Alcatraz',
         image: Margherita,
         price: 3000,
     },
     {
-        name: 'Félelem és Komponensek',
+        name: 'Fear and Components',
         image: Hawaii,
         price: 3200,
     },
@@ -29,12 +29,12 @@ export const PizzaList = [
         price: 3500,
     },
     {
-        name: 'Keretrendszer',
+        name: 'Framework',
         image: Webler,
         price: 4000,
     },
     {
-        name: 'Végtelen Ciklus',
+        name: 'Infinite Cycle',
         image: Draga,
         price: 6000,
     },

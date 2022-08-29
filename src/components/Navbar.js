@@ -12,10 +12,10 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-right">
-                <Link to='/'>Kezdőoldal</Link>
-                <Link to='/menu'>Menü</Link>
-                <Link to='/about'>Rólunk</Link>
-                <Link to='/contact'>Kapcsolat</Link>
+                <Link to='/'>Homepage</Link>
+                <Link to='/menu'>Menu</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contact'>Contact</Link>
                 <button><ReorderIcon /></button>
             </div>
 

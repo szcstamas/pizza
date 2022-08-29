@@ -28,26 +28,26 @@ const Contact = () => {
                     variants={formHeader}
                     initial='hidden'
                     animate='visible'
-                >Kapcsolat</motion.h1>
+                >Get in connection!</motion.h1>
 
                 <motion.form
                     transition={{ delay: .25 }}
                     initial='hidden'
                     animate='visible'
                     variants={form} action="" method='post'>
-                    <label>Teljes név <span>*</span></label>
-                    <input spellCheck={spellCheck} type="text" placeholder='Add meg a teljes nevedet..' required />
+                    <label>Your name<span>*</span></label>
+                    <input spellCheck={spellCheck} type="text" placeholder='You can write your name in here...' required />
 
-                    <label>E-mail cím <span>*</span></label>
-                    <input spellCheck={spellCheck} type="text" placeholder='Add meg az e-mail címedet..' required />
+                    <label>E-mail address<span>*</span></label>
+                    <input spellCheck={spellCheck} type="text" placeholder='Your e-mail address will goes here...' required />
 
-                    <label>Telefonszám</label>
-                    <input spellCheck={spellCheck} type="text" placeholder='Add meg a telefonszámodat..' />
+                    <label>Phone number</label>
+                    <input spellCheck={spellCheck} type="text" placeholder="It's not necessary if you don't want to..." />
 
-                    <label>Üzenet <span>*</span></label>
-                    <textarea spellCheck={spellCheck} placeholder='Az üzenet...' required></textarea>
+                    <label>Message<span>*</span></label>
+                    <textarea spellCheck={spellCheck} placeholder='And your message...' required></textarea>
 
-                    <button>Elküldöm!</button>
+                    <button>SEND IT!</button>
                 </motion.form>
             </div>
         </motion.div>

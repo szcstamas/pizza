@@ -17,7 +17,10 @@ const Menu = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className='menu'>
-            <div className="menuTitle">Étlap</div>
+            <div
+                className="menuTitle"
+                style={{ marginBottom: '1rem' }}
+            >Our menu</div>
             <motion.div
                 transition={{ delay: .25 }}
                 variants={menuItems}
@@ -29,9 +32,6 @@ const Menu = () => {
                     return (
 
                         <PizzaItem
-                            // variants={menuItems}
-                            // initial='hidden'
-                            // animate='visible'
                             name={pizza.name}
                             image={pizza.image}
                             price={pizza.price}

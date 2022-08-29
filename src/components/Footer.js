@@ -12,7 +12,7 @@ const Footer = () => {
                 <LinkedIn />
             </div>
 
-            <p>2022 &copy; Front-end/Webfejlesztők</p>
+            <p>Szűcs Tamás &copy; 2022</p>
         </div>
     )
 }
