@@ -56,3 +56,20 @@
     background-position: center;
     background-size: cover;
 }
+
+@media screen and (max-width: 680px) {
+
+    .menu {
+        padding: 2rem;
+    }
+
+    .menuList {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pizzaItem {
+        width: 100%;
+    }
+}
