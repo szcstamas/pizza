@@ -1,0 +1,111 @@
+@import "./Global.css";
+
+.contact {
+
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+}
+
+.contact-left {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.contact-right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+.contact-right h1 {
+
+    margin-bottom: 2rem;
+}
+
+.contact-right form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right form label {
+
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.contact-right form input {
+
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    border: none;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.contact-right form label span {
+
+    font-weight: bold;
+    color: rgb(255, 150, 101);
+}
+
+.contact-right form input:focus,
+.contact-right form input:active {
+
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+}
+
+.contact-right form textarea {
+
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    height: 200px;
+    resize: none;
+    border: 2px solid #ccc;
+}
+
+.contact-right form textarea:active,
+.contact-right form textarea:focus {
+    border: 2px solid #ccc !important;
+    border-radius: 0px !important;
+    outline: none !important;
+}
+
+.contact-right form input::placeholder,
+.contact-right form textarea::placeholder {
+    color: #ccc;
+}
+
+.contact-right button {
+
+    margin-top: 2rem;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    width: auto;
+    color: #fff;
+    background: rgb(36, 36, 36);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.contact-right button:hover {
+
+    background: rgb(255, 150, 101);
+    color: #fff;
+}

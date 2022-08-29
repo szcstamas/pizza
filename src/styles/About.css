@@ -1,0 +1,44 @@
+@import "./Global.css";
+
+.about {
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTop {
+
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 20rem;
+}
+
+@media (max-width: 1500px) {
+
+    .aboutContainer {
+
+        padding: 3rem 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .aboutContainer {
+
+        padding: 3rem 2rem;
+    }
+}
